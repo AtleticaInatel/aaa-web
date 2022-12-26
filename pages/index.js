@@ -6,7 +6,8 @@ import Button from "../components/Button";
 
 export default function Home() {
     return (
-        <div className='bg-gradient-to-tr from-aaa-yellow via-mid-color to-aaa-blue h-screen overflow-auto'>
+        // <div className='bg-gradient-to-tr from-aaa-blue to-black h-screen overflow-auto'>
+        <div className='bg-aaa-blue2 h-screen overflow-auto'>
             <Head>
                 <title>Atlética Inatel</title>
                 <meta name="description" content="Atlética Inatel" />

@@ -45,7 +45,10 @@ function profile() {
                             delay: .5
                         }
                     },
-                }}>Atlética Inatel</motion.h2>
+                }}>
+
+                    Atlética Inatel
+                </motion.h2>
                 <motion.h2 className='font-body text-gray-300' initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
@@ -58,7 +61,15 @@ function profile() {
                             delay: .6
                         }
                     },
-                }}>@atleticainatel</motion.h2>
+                }}>
+                    <a href='https://instagram.com/atleticainatel'
+                       target={'_blank'}
+                       rel={'noreferrer'}
+                       className='hover:text-aaa-yellow'
+                    >
+                        @atleticainatel
+                    </a>
+                </motion.h2>
             </div>
         </div>
     );

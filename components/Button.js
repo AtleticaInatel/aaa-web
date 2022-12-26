@@ -21,7 +21,7 @@ function button() {
                     scale: 1.1,
                     transition: {
                         duration: .2
-                    }
+                    },
                 }} className='text-xl'>
                     <a href='https://1drv.ms/u/s!Asc22RD7qOktkNQOPIb765oX0wWgyg?e=lSlalr'
                        target={'_blank'}
@@ -56,7 +56,7 @@ function button() {
                        rel={'noreferrer'}
                        className='btn'
                     >
-                        Nossa Lojinha
+                        Lojinha da Grife
                     </a>
                 </motion.li>
             </motion.div>
@@ -84,7 +84,7 @@ function button() {
                        rel={'noreferrer'}
                        className='btn'
                     >
-                        Nosso Twitter
+                        Twitter
                     </a>
                 </motion.li>
             </motion.div>
@@ -112,7 +112,7 @@ function button() {
                        rel={'noreferrer'}
                        className='btn'
                     >
-                        Nosso Facebook
+                        Facebook
                     </a>
                 </motion.li>
             </motion.div>
