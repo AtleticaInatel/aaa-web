@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import {Analytics} from '@vercel/analytics/react';
 import Button from "../components/Button";
 import Profile from "../components/Profile";
 
@@ -15,7 +14,6 @@ export default function links() {
                 <Profile/>
                 <Button/>
             </main>
-            <Analytics/>
         </div>
     );
 }
