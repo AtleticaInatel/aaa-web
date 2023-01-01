@@ -49,7 +49,7 @@ function profile() {
 
                     Atlética Inatel
                 </motion.h2>
-                <motion.h2 className='font-body text-gray-300' initial="hidden" animate="visible" variants={{
+                <motion.h2 initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
                         opacity: 0
@@ -62,13 +62,20 @@ function profile() {
                         }
                     },
                 }}>
-                    <a href='https://instagram.com/atleticainatel'
-                       target={'_blank'}
-                       rel={'noreferrer'}
-                       className='hover:text-aaa-yellow'
-                    >
-                        @atleticainatel
-                    </a>
+                    <motion.div whileHover={{
+                        scale: 1.2,
+                        transition: {
+                            duration: .2
+                        }
+                    }} className='font-body text-gray-300 hover:text-aaa-yellow'>
+                        <a href='https://instagram.com/atleticainatel'
+                           target={'_blank'}
+                           rel={'noreferrer'}
+
+                        >
+                            @atleticainatel
+                        </a>
+                    </motion.div>
                 </motion.h2>
             </div>
         </div>
