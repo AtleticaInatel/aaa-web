@@ -23,12 +23,12 @@ function button() {
                         duration: .2
                     },
                 }} className='text-xl'>
-                    <a href='https://1drv.ms/u/s!Asc22RD7qOktkNQOPIb765oX0wWgyg?e=lSlalr'
+                    <a href='https://1drv.ms/u/s!Asc22RD7qOktk6RTM5Qnx8eE0oT_RA?e=smuxgP'
                        target={'_blank'}
                        rel={'noreferrer'}
                        className='btn'
                     >
-                        Fotos Jutel
+                        Molduras Story
                     </a>
                 </motion.li>
             </motion.div>
@@ -56,7 +56,7 @@ function button() {
                        rel={'noreferrer'}
                        className='btn'
                     >
-                        Lojinha da Grife
+                        Lojinha
                     </a>
                 </motion.li>
             </motion.div>
