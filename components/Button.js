@@ -4,34 +4,34 @@ import {motion} from "framer-motion";
 function button() {
     return (<div className='flex justify-center items-center'>
         <ul className='w-[244px] sm:w-[360px]'>
-            <motion.div initial="hidden" animate="visible" variants={{
-                hidden: {
-                    scale: .8,
-                    opacity: 0
-                },
-                visible: {
-                    scale: 1,
-                    opacity: 1,
-                    transition: {
-                        delay: 0.7
-                    }
-                },
-            }}>
-                <motion.li whileHover={{
-                    scale: 1.1,
-                    transition: {
-                        duration: .2
-                    },
-                }} className='text-xl'>
-                    <a href='https://1drv.ms/u/s!Asc22RD7qOktk6RTM5Qnx8eE0oT_RA?e=smuxgP'
-                       target={'_blank'}
-                       rel={'noreferrer'}
-                       className='btn'
-                    >
-                        Molduras Story
-                    </a>
-                </motion.li>
-            </motion.div>
+            {/*<motion.div initial="hidden" animate="visible" variants={{*/}
+            {/*    hidden: {*/}
+            {/*        scale: .8,*/}
+            {/*        opacity: 0*/}
+            {/*    },*/}
+            {/*    visible: {*/}
+            {/*        scale: 1,*/}
+            {/*        opacity: 1,*/}
+            {/*        transition: {*/}
+            {/*            delay: 0.7*/}
+            {/*        }*/}
+            {/*    },*/}
+            {/*}}>*/}
+            {/*    <motion.li whileHover={{*/}
+            {/*        scale: 1.1,*/}
+            {/*        transition: {*/}
+            {/*            duration: .2*/}
+            {/*        },*/}
+            {/*    }} className='text-xl'>*/}
+            {/*        <a href='https://1drv.ms/u/s!Asc22RD7qOktk6RTM5Qnx8eE0oT_RA?e=smuxgP'*/}
+            {/*           target={'_blank'}*/}
+            {/*           rel={'noreferrer'}*/}
+            {/*           className='btn'*/}
+            {/*        >*/}
+            {/*            Molduras Story*/}
+            {/*        </a>*/}
+            {/*    </motion.li>*/}
+            {/*</motion.div>*/}
             <motion.div initial="hidden" animate="visible" variants={{
                 hidden: {
                     scale: .8,
@@ -51,7 +51,7 @@ function button() {
                         duration: .2
                     }
                 }} className='text-xl'>
-                    <a href='https://cheersshop.com.br/atl%C3%A9tica-inatel~196'
+                    <a href='https://www.cheersapp.com.br/atl%C3%A9tica-inatel~196'
                        target={'_blank'}
                        rel={'noreferrer'}
                        className='btn'
