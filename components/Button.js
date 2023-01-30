@@ -22,7 +22,7 @@ function button() {
                     transition: {
                         duration: .2
                     },
-                }} className='text-xl'>
+                }} className='text-xl text-center'>
                     <a href='https://forms.gle/LdVJn5L6VSbkrrPz7'
                        target={'_blank'}
                        rel={'noreferrer'}
