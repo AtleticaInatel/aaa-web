@@ -23,12 +23,12 @@ function button() {
                         duration: .2
                     },
                 }} className='text-xl'>
-                    <a href='https://1drv.ms/u/s!Asc22RD7qOktkNQOPIb765oX0wWgyg?e=lSlalr'
+                    <a href='https://forms.gle/LdVJn5L6VSbkrrPz7'
                        target={'_blank'}
                        rel={'noreferrer'}
                        className='btn'
                     >
-                        Fotos Jutel
+                        Votação Melhores 2022
                     </a>
                 </motion.li>
             </motion.div>
