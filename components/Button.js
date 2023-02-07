@@ -23,6 +23,34 @@ function button() {
                         duration: .2
                     },
                 }} className='text-xl text-center'>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdeu62EsrLYpaH-l5Ar4mKZp41s6e59yp4mZ703LDO5jorFcg/viewform'
+                       target={'_blank'}
+                       rel={'noreferrer'}
+                       className='btn'
+                    >
+                        Seletiva de Marketing
+                    </a>
+                </motion.li>
+            </motion.div>
+            <motion.div initial="hidden" animate="visible" variants={{
+                hidden: {
+                    scale: .8,
+                    opacity: 0
+                },
+                visible: {
+                    scale: 1,
+                    opacity: 1,
+                    transition: {
+                        delay: 0.8
+                    }
+                },
+            }}>
+                <motion.li whileHover={{
+                    scale: 1.1,
+                    transition: {
+                        duration: .2
+                    },
+                }} className='text-xl text-center'>
                     <a href='https://forms.gle/LdVJn5L6VSbkrrPz7'
                        target={'_blank'}
                        rel={'noreferrer'}
@@ -41,7 +69,7 @@ function button() {
                     scale: 1,
                     opacity: 1,
                     transition: {
-                        delay: 0.8
+                        delay: 0.9
                     }
                 },
             }}>
@@ -69,7 +97,7 @@ function button() {
                     scale: 1,
                     opacity: 1,
                     transition: {
-                        delay: 0.9
+                        delay: 1
                     }
                 },
             }}>
@@ -97,7 +125,7 @@ function button() {
                     scale: 1,
                     opacity: 1,
                     transition: {
-                        delay: 1
+                        delay: 1.1
                     }
                 },
             }}>
