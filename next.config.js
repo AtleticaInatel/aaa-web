@@ -11,7 +11,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/seletiva",
+        source: "/geral",
         destination:
             "https://forms.gle/dXGq6aTcX6ZXzX627",
         permanent: true,
