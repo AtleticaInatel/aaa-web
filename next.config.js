@@ -11,6 +11,12 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/seletiva",
+        destination:
+            "https://forms.gle/dXGq6aTcX6ZXzX627",
+        permanent: true,
+      },
+      {
         source: "/loja",
         destination:
             "https://www.cheersapp.com.br/atl%C3%A9tica-inatel~196",

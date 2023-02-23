@@ -28,7 +28,7 @@ function button() {
                        rel={'noreferrer'}
                        className='btn'
                     >
-                        Seletiva de Marketing
+                        Processo Seletivo de Marketing
                     </a>
                 </motion.li>
             </motion.div>
@@ -51,12 +51,12 @@ function button() {
                         duration: .2
                     },
                 }} className='text-xl text-center'>
-                    <a href='https://forms.gle/LdVJn5L6VSbkrrPz7'
+                    <a href='https://forms.gle/dXGq6aTcX6ZXzX627'
                        target={'_blank'}
                        rel={'noreferrer'}
                        className='btn'
                     >
-                        Votação Melhores 2022
+                        Processo Seletivo Geral
                     </a>
                 </motion.li>
             </motion.div>
