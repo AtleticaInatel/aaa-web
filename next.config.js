@@ -5,6 +5,12 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/interpanelas",
+        destination:
+            "https://forms.gle/YooC5FXJaFYFBYp78",
+        permanent: true,
+      },
+      {
         source: "/mkt",
         destination:
             "https://forms.gle/Upw27e22hVk6dM7R8",

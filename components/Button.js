@@ -4,7 +4,7 @@ import {motion} from "framer-motion";
 function button() {
     return (<div className='flex justify-center items-center'>
         <ul className='w-[244px] sm:w-[360px]'>
-            <motion.div initial="hidden" animate="visible" variants={{
+        <motion.div initial="hidden" animate="visible" variants={{
                 hidden: {
                     scale: .8,
                     opacity: 0
@@ -14,6 +14,34 @@ function button() {
                     opacity: 1,
                     transition: {
                         delay: 0.7
+                    }
+                },
+            }}>
+                <motion.li whileHover={{
+                    scale: 1.1,
+                    transition: {
+                        duration: .2
+                    },
+                }} className='text-xl text-center'>
+                    <a href='https://forms.gle/YooC5FXJaFYFBYp78'
+                       target={'_blank'}
+                       rel={'noreferrer'}
+                       className='btn'
+                    >
+                        Inscrições InterPanelas 2023 1º Edição
+                    </a>
+                </motion.li>
+            </motion.div>
+            <motion.div initial="hidden" animate="visible" variants={{
+                hidden: {
+                    scale: .8,
+                    opacity: 0
+                },
+                visible: {
+                    scale: 1,
+                    opacity: 1,
+                    transition: {
+                        delay: 0.8
                     }
                 },
             }}>
@@ -41,7 +69,7 @@ function button() {
                     scale: 1,
                     opacity: 1,
                     transition: {
-                        delay: 0.8
+                        delay: 0.9
                     }
                 },
             }}>
@@ -69,7 +97,7 @@ function button() {
                     scale: 1,
                     opacity: 1,
                     transition: {
-                        delay: 0.9
+                        delay: 1
                     }
                 },
             }}>
@@ -97,7 +125,7 @@ function button() {
                     scale: 1,
                     opacity: 1,
                     transition: {
-                        delay: 1
+                        delay: 1.1
                     }
                 },
             }}>
@@ -125,7 +153,7 @@ function button() {
                     scale: 1,
                     opacity: 1,
                     transition: {
-                        delay: 1.1
+                        delay: 1.2
                     }
                 },
             }}>
