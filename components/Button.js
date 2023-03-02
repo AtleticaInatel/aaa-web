@@ -28,7 +28,7 @@ function button() {
                        rel={'noreferrer'}
                        className='btn'
                     >
-                        Inscrições InterPanelas 2023 1º Edição
+                        Inscrições InterPanelas
                     </a>
                 </motion.li>
             </motion.div>
