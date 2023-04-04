@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import profilePic from '../public/profilepic.jpg'
+import profilePic from '../public/profilepic.png'
 import {motion} from "framer-motion";
 function profile() {
     return (
@@ -33,7 +33,7 @@ function profile() {
                 </div>
             </motion.div>
             <div>
-                <motion.h2 className='font-body text-xl font-bold text-white' initial="hidden" animate="visible" variants={{
+                <motion.h2 className='font-sans text-xl font-bold text-white' initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
                         opacity: 0
@@ -67,7 +67,7 @@ function profile() {
                         transition: {
                             duration: .2
                         }
-                    }} className='font-body text-gray-300 hover:text-aaa-yellow'>
+                    }} className='font-sans text-gray-300 hover:text-aaa-yellow'>
                         <a href='https://instagram.com/atleticainatel'
                            target={'_blank'}
                            rel={'noreferrer'}
